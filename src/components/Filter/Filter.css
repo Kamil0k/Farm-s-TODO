@@ -1,0 +1,30 @@
+.filter {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.filter .filter__title {
+	font-size: 2.5rem;
+}
+
+.filter .filter__select {
+	font-size: 1.6rem;
+	padding: 0.2em;
+	font-weight: bold;
+    border-radius: 3px;
+	border: 1px solid #aa7e38;
+}
+
+@media (max-width: 880px) {
+	.filter .filter__title {
+		font-size: 2.2rem;
+	}
+	
+	.filter .filter__select {
+		font-size: 1.4rem;
+	}
+}
+
+

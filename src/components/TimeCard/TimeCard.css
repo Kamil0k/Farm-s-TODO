@@ -1,0 +1,37 @@
+.time-card{
+    display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	align-items: center;
+	position: absolute;
+	bottom: 5%;
+	right: 2%;
+    width: 150px;
+	border-radius: 5px;
+	background-color: #eee;
+	overflow: hidden;
+    box-shadow: inset 0px 0px 10px #333;
+}
+
+.time-card .time-card__time{
+    font-size: 2.6rem;
+    padding: 0.4em;
+    font-weight: bold;
+    color: #aa7e38;
+}
+
+
+@media (max-width:600px) {
+	.time-card{
+		bottom: 15%;
+		width: 120px;
+	}
+	
+	.time-card .time-card__time{
+		font-size: 2rem;
+		padding: 0.3em;
+		font-weight: bold;
+		color: #aa7e38;
+	}
+	
+}

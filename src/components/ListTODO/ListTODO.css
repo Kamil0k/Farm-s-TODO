@@ -1,0 +1,33 @@
+.list {
+	width: 98%;
+	border-radius: 20px;
+	margin-top: 0.5em;
+	padding: 1em;
+	border: 1px solid #aa7e38;
+	background-color: #f6f3e8;
+}
+
+.list .list__title {
+	font-size: 3.5rem;
+}
+
+.list .list__title i {
+	color: rgb(251, 212, 103);
+	text-shadow: 0 0 3px black;
+}
+
+.list .list__subtitle {
+	font-size: 2rem;
+	color: grey;
+}
+
+@media (max-width: 880px) {
+	.list .list__title {
+		font-size: 3.2rem;
+	}
+
+	.list .list__subtitle {
+		font-size: 1.8rem;
+		color: grey;
+	}
+}

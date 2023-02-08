@@ -1,0 +1,30 @@
+.area {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin-top: 0.5em;
+}
+
+.area .area__button {
+	background: transparent;
+	border-radius: 5px;
+	font-size: 2rem;
+	padding: 0.5em 2em;
+	font-weight: bold;
+	color: #fff;
+	background-color: rgb(251, 212, 103);
+	border: 2px solid rgba(170, 126, 56, 1);
+	transition: background-color 0.3s;
+	cursor: pointer;
+}
+
+.area .area__button:hover {
+	background-color: rgba(170, 126, 56, 1);
+}
+
+@media (max-width:600px) {
+	.area .area__button {
+		font-size: 1.8rem;
+		padding: 0.3em 1.5em;
+	}
+}

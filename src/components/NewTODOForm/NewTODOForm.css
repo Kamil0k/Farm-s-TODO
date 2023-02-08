@@ -1,0 +1,91 @@
+.form-area {
+	width: 40%;
+	border: 1px solid rgba(170, 126, 56, 1);
+	border-radius: 20px;
+	margin-top: 0.5em;
+	padding: 1em;
+}
+
+input,
+textarea {
+	border-radius: 5px;
+	border: 1px solid #aa7e38;
+	font-size: 1.5rem;
+	padding: 0.2em;
+}
+
+textarea {
+	max-width: 100%;
+	min-width: 100%;
+	max-height: 100px;
+	min-height: 50px;
+}
+
+input[type='radio'] {
+	accent-color: rgba(170, 126, 56, 1);
+}
+
+.first-group {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.first-group .box {
+	width: 100%;
+}
+
+.first-group .box input {
+	width: 95%;
+}
+
+.second-group .radio-group {
+	display: flex;
+	flex-direction: row;
+	justify-content: start;
+}
+
+.second-group .radio-group .r {
+	margin-right: 2em;
+	font-size: 1.7rem;
+}
+
+.third-group textarea {
+	width: 100%;
+	height: 50px;
+}
+
+.label {
+	font-size: 1.7rem;
+	margin-bottom: 0.3em;
+	font-weight: bold;
+	color: rgba(170, 126, 56, 1);
+}
+
+.button-add,
+.button-cancel {
+	background: transparent;
+	border-radius: 5px;
+	font-size: 1.6rem;
+	padding: 0.3em 1em;
+	margin-right: 1em;
+	font-weight: bold;
+	color: #fff;
+	background-color: rgb(251, 212, 103);
+	border: 1px solid rgba(170, 126, 56, 1);
+	transition: background-color 0.3s;
+	cursor: pointer;
+}
+
+.button-add:hover,
+.button-cancel:hover {
+	background-color: rgba(170, 126, 56, 1);
+}
+
+@media (max-width:880px) {
+	.form-area {
+		width: 90%;
+
+	}
+}
