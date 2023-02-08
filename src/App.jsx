@@ -10,7 +10,7 @@ const DUMMY_TODOS = [
 		id: '1',
 		title: 'Harvest a wheat!',
 		date: new Date(2022, 7, 22),
-		message: 'This day I have to harvest the rice from over 25 hetares fields.',
+		message: 'This day I have to harvest the wheat from over 25 hetares fields.',
 		category: 1,
 	},
 	{

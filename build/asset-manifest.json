@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/Farm-s-TODO/static/css/main.2ba33582.css",
+    "main.js": "/Farm-s-TODO/static/js/main.f71ae992.js",
+    "static/media/rice-farm.jpg": "/Farm-s-TODO/static/media/rice-farm.253e46702b59dbfff08b.jpg",
+    "index.html": "/Farm-s-TODO/index.html",
+    "main.2ba33582.css.map": "/Farm-s-TODO/static/css/main.2ba33582.css.map",
+    "main.f71ae992.js.map": "/Farm-s-TODO/static/js/main.f71ae992.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.2ba33582.css",
+    "static/js/main.f71ae992.js"
+  ]
+}
